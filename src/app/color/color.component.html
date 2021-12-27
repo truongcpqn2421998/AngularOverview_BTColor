@@ -1,0 +1,11 @@
+<p>color works!</p>
+<label>
+  <h3>color:</h3>
+  <select [(ngModel)]="color">
+    <option value="black">black</option>
+    <option value="red">red</option>
+    <option value="yellow">yellow</option>
+    <option value="aqua">aqua</option>
+  </select>
+  <p [style.color]="color">color</p>
+</label>
